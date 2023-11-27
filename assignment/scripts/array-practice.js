@@ -112,9 +112,8 @@ console.log('The animals are now', animalArray);
 //      inside a new variable called `firstColor`.
 //      To verify that your code worked, console.log `firstColor`!  
 
-lastColor = colors.shift();
-let firstColor = lastColor;
-console.log(lastColor);
+let firstColor = colors.shift();
+console.log(firstColor);
 
 // STRETCH GOALS:
 
